@@ -1,0 +1,45 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    height: 70vh;
+    width: 60vw;
+    border: 2px solid black;
+    margin: 10vh auto;
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input[name="ans"]{
+    border: 0px;
+    border-bottom: 2px solid navy;
+    padding: 5px;
+}
+.inp{
+    height: 70%;
+    width: 50%;
+    margin:50px auto;
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.result{
+    height: 70%;
+    width: 50%;
+    margin:50px auto;
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding:10px;
+}
